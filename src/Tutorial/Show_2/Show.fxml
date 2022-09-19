@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Tutorial.Show_2.Controller">
+   <children>
+      <PasswordField fx:id="passwordHidden" layoutX="138.0" layoutY="175.0" />
+      <TextField fx:id="passwordText" layoutX="138.0" layoutY="175.0" />
+      <CheckBox fx:id="checkbox" layoutX="321.0" layoutY="179.0" mnemonicParsing="false" onAction="#changeVisibility" text="Show" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Practice.Confirm.Controller">
+   <children>
+      <PasswordField fx:id="password" layoutX="226.0" layoutY="128.0" />
+      <PasswordField fx:id="confirmPassword" layoutX="226.0" layoutY="218.0" />
+      <Button layoutX="388.0" layoutY="215.0" mnemonicParsing="false" onMouseClicked="#check" text="Check">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="170.0" layoutY="132.0" text="Password: " />
+      <Label layoutX="124.0" layoutY="222.0" text="Confirm Password: " />
+      <Text fx:id="text" layoutX="226.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" visible="false" />
+      <Text fx:id="text2" layoutX="226.0" layoutY="272.0" strokeType="OUTSIDE" strokeWidth="0.0" visible="false" />
+      <Button fx:id="btn2" disable="true" layoutX="274.0" layoutY="275.0" mnemonicParsing="false" onMouseClicked="#next" text="Next">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

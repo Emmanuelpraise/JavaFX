@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Tutorial.Zero_1.Controller">
+   <children>
+      <Button layoutX="239.0" layoutY="162.0" mnemonicParsing="false" onMouseClicked="#print" prefHeight="77.0" prefWidth="122.0" text="Button" />
+   </children>
+</AnchorPane>
