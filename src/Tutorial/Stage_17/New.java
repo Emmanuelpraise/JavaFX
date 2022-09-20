@@ -14,7 +14,23 @@ public class New extends Application {
         primaryStage.setTitle("Stage 1");
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
+
+    //     primaryStage.setOnCloseRequest(event -> {
+    //         event.consume();
+    //         logout(primaryStage);
+    // });
     }
+
+    //  public void logout(Stage primaryStage){
+    //     Alert alert = new Alert(AlertType.CONFIRMATION)
+    //     alert.setTitle("Logout");
+    //     alert.setHeaderText("You're about to Logout!");
+    //     alert.setContentText("Do you want to save before exiting?: ");
+    // if (alert.showAndWait().get() == ButtonType.OK) {
+    //     System.out.println("You Successfully logged out!");
+    //     stage.close();
+    // }
+    // }
 
 
     public static void main(String[] args) {

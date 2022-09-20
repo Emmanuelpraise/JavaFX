@@ -23,4 +23,16 @@ public class Controller2 {
         stage.setScene(new Scene(root));
     }
 
+    // public void logout(ActionEvent event){
+    //     Alert alert = new Alert(AlertType.CONFIRMATION)
+    //     alert.setTitle("Logout");
+    //     alert.setHeaderText("You're about to Logout!");
+    //     alert.setContentText("Do you want to save before exiting?: ");
+    // if (alert.showAndWait().get() == ButtonType.OK) {
+    //     stage = (Stage) anchorPane.getScene().getWindow();
+    //     System.out.println("You Successfully logged out!");
+    //     stage.close();
+    // }
+    // }
+        
 }
