@@ -22,7 +22,7 @@ public class New extends Application {
     }
 
     //  public void logout(Stage primaryStage){
-    //     Alert alert = new Alert(AlertType.CONFIRMATION)
+    //     Alert alert = new Alert(AlertType.CONFIRMATION);
     //     alert.setTitle("Logout");
     //     alert.setHeaderText("You're about to Logout!");
     //     alert.setContentText("Do you want to save before exiting?: ");

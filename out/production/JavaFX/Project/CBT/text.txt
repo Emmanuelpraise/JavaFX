@@ -1,0 +1,167 @@
+@FXML
+    void next(MouseEvent event) {
+        if (que == 1) {
+
+            question.setText("1. Which of the following is not a programing Language?");
+            A.setText("a. JAVA");
+            B.setText("b. Python");
+            C.setText("c. Boolean");
+            D.setText("d. C++");
+
+            if (A.equals(options)) {
+
+                if (options.getSelectedToggle().equals(A)) {
+                    que++;
+                }
+            } else if (B.equals(options)) {
+
+                if (options.getSelectedToggle().equals(B)) {
+                    que++;
+                }
+            } else if (C.equals(options)) {
+
+                if (options.getSelectedToggle().equals(C)) {
+                    score++;
+                    que++;
+                }
+            } else if (D.equals(options)) {
+
+                if (options.getSelectedToggle().equals(D)) {
+                    que++;
+                }
+            } else {
+                System.out.println("Choose a correct option to proceed");
+            }
+        }if (que == 1) {
+
+            question.setText("1. Which of the following is not a programing Language?");
+            A.setText("a. JAVA");
+            B.setText("b. Python");
+            C.setText("c. Boolean");
+            D.setText("d. C++");
+
+            if (A.equals(options)) {
+
+                if (options.getSelectedToggle().equals(A)) {
+                    que++;
+                }
+            } else if (B.equals(options)) {
+
+                if (options.getSelectedToggle().equals(B)) {
+                    que++;
+                }
+            } else if (C.equals(options)) {
+
+                if (options.getSelectedToggle().equals(C)) {
+                    score++;
+                    que++;
+                }
+            } else if (D.equals(options)) {
+
+                if (options.getSelectedToggle().equals(D)) {
+                    que++;
+                }
+            } else {
+                System.out.println("Choose a correct option to proceed");
+            }
+        }if (que == 2) {
+
+            question.setText("2. Which of the following is not a programing Language?");
+            A.setText("a. JAVA");
+            B.setText("b. Python");
+            C.setText("c. Boolean");
+            D.setText("d. C++");
+
+            if (A.equals(options)) {
+
+                if (options.getSelectedToggle().equals(A)) {
+                    que++;
+                }
+            } else if (B.equals(options)) {
+
+                if (options.getSelectedToggle().equals(B)) {
+                    que++;
+                }
+            } else if (C.equals(options)) {
+
+                if (options.getSelectedToggle().equals(C)) {
+                    score++;
+                    que++;
+                }
+            } else if (D.equals(options)) {
+
+                if (options.getSelectedToggle().equals(D)) {
+                    que++;
+                }
+            } else {
+                System.out.println("Choose a correct option to proceed");
+            }
+        }if (que == 3) {
+
+            question.setText("3. Which of the following is not a programing Language?");
+            A.setText("a. JAVA");
+            B.setText("b. Python");
+            C.setText("c. Boolean");
+            D.setText("d. C++");
+
+            if (A.equals(options)) {
+
+                if (options.getSelectedToggle().equals(A)) {
+                    que++;
+                }
+            } else if (B.equals(options)) {
+
+                if (options.getSelectedToggle().equals(B)) {
+                    que++;
+                }
+            } else if (C.equals(options)) {
+
+                if (options.getSelectedToggle().equals(C)) {
+                    score++;
+                    que++;
+                }
+            } else if (D.equals(options)) {
+
+                if (options.getSelectedToggle().equals(D)) {
+                    que++;
+                }
+            } else {
+                System.out.println("Choose a correct option to proceed");
+            }
+        }if (que == 4) {
+
+            question.setText("4. Which of the following is not a programing Language?");
+            A.setText("a. JAVA");
+            B.setText("b. Python");
+            C.setText("c. Boolean");
+            D.setText("d. C++");
+
+            if (A.equals(options)) {
+
+                if (options.getSelectedToggle().equals(A)) {
+                    que++;
+                }
+            } else if (B.equals(options)) {
+
+                if (options.getSelectedToggle().equals(B)) {
+                    que++;
+                }
+            } else if (C.equals(options)) {
+
+                if (options.getSelectedToggle().equals(C)) {
+                    score++;
+                    Text.setText(String.valueOf(score));
+                    Text.setVisible(true);
+//                    que++;
+                }
+            } else if (D.equals(options)) {
+
+                if (options.getSelectedToggle().equals(D)) {
+                    que++;
+                }
+            } else {
+                System.out.println("Choose a correct option to proceed");
+            }
+        }
+        que++;
+    }

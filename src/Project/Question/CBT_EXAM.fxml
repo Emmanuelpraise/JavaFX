@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #007bff;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project.Question.Controller">
+   <children>
+      <Button layoutX="532.0" layoutY="361.0" mnemonicParsing="false" onMouseClicked="#submit" style="-fx-background-color: #fff;" text="Submit" textFill="#007bff" />
+      <Text fx:id="scoreRec" layoutX="155.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+      <AnchorPane layoutX="135.0" layoutY="57.0" prefHeight="286.0" prefWidth="330.0" style="-fx-background-color: #fff; -fx-background-radius: 5;">
+         <children>
+            <Text fx:id="questions" layoutX="20.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Which of the following is a programming Language?" />
+            <ToggleButton fx:id="A" alignment="TOP_LEFT" layoutX="20.0" layoutY="80.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="290.0" style="-fx-background-color: #F0F8FF;" text="A. Java">
+               <toggleGroup>
+                  <ToggleGroup fx:id="q1" />
+               </toggleGroup>
+            </ToggleButton>
+            <ToggleButton fx:id="B" alignment="TOP_LEFT" layoutX="20.0" layoutY="118.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="290.0" style="-fx-background-color: #F0F8FF;" text="B. Physics" toggleGroup="$q1" />
+            <ToggleButton fx:id="C" alignment="TOP_LEFT" layoutX="20.0" layoutY="154.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="290.0" style="-fx-background-color: #F0F8FF;" text="C. Lamda " toggleGroup="$q1" />
+            <ToggleButton fx:id="D" alignment="TOP_LEFT" layoutX="20.0" layoutY="190.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="290.0" style="-fx-background-color: #F0F8FF;" text="D. Chemistry" toggleGroup="$q1" />
+            <Button fx:id="next" layoutX="275.0" layoutY="245.0" mnemonicParsing="false" onMouseClicked="#next" style="-fx-background-color: #007bff;" text="Next" textFill="WHITE" />
+            <Button fx:id="previous" layoutX="20.0" layoutY="245.0" mnemonicParsing="false" onMouseClicked="#previous" style="-fx-background-color: #007bff;" text="Previous" textFill="WHITE" />
+            <Separator layoutY="229.0" prefHeight="9.0" prefWidth="330.0" />
+            <Text layoutX="20.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COMPUTER BASED TEST" wrappingWidth="168.82421875">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Text>
+            <ProgressBar layoutY="40.0" prefHeight="3.0" prefWidth="330.0" progress="0.0" />
+            <Label layoutX="249.0" layoutY="7.0" prefHeight="31.0" prefWidth="77.0" style="-fx-background-color: #CCE5FF; -fx-background-radius: 5;" text="Time: ">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="296.0" layoutY="15.0" prefHeight="17.0" prefWidth="22.0" style="-fx-background-color: black;" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

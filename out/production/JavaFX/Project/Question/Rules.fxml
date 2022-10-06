@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #007bff;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project.Question.Controller">
+   <children>
+      <AnchorPane layoutX="134.0" layoutY="82.0" prefHeight="218.0" prefWidth="339.0" style="-fx-background-color: #fff; -fx-background-radius: 5;">
+         <children>
+            <Separator layoutY="46.0" prefHeight="0.0" prefWidth="339.0" />
+            <Separator layoutY="169.0" prefHeight="0.0" prefWidth="339.0" />
+            <Label layoutX="14.0" layoutY="6.0" prefHeight="34.0" prefWidth="218.0" text="Some Rules for this Exam">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="Cont" layoutX="260.0" layoutY="180.0" mnemonicParsing="false" onMouseClicked="#nxt" style="-fx-background-color: #007bff;" text="Continue" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="exit" layoutX="170.0" layoutY="180.0" mnemonicParsing="false" onMouseClicked="#exit" style="-fx-background-color: #007bff;" text="Exit Exam" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Text layoutX="13.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. You will have only 1 Minute per each question.2. Once you select your answer, it can't be undone.3. You can't select any option once time goes off.4. You can't exit from the Exam while you're playing.5. You'll get points on the basis of your correct answers." wrappingWidth="313.13671875">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

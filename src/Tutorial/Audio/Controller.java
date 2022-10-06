@@ -2,13 +2,14 @@ package Tutorial.Audio;
 
 import javafx.fxml.FXML;
 import javafx.scene.input.MouseEvent;
+import javafx.scene.media.MediaPlayer;
 
 import javax.print.attribute.standard.Media;
 import java.io.File;
 
-//MediaPlayer mediaplayer;
-
 public class Controller {
+
+    MediaPlayer mediaPlayer;
 
     @FXML
     void play(MouseEvent event) {
@@ -21,8 +22,8 @@ public class Controller {
         System.out.println(path);
 //        Media media = new Media(new File(path).toURI().toString());
 //        mediaPlayer = new MediaPlayer(media);
-//        mediaPlayer.setCycleCount(MediaPlayer.1);
-//        mediaPlayer.play();
+        mediaPlayer.setCycleCount(MediaPlayer.INDEFINITE);
+        mediaPlayer.play();
     }
 
 }
