@@ -1,0 +1,338 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "BroCode.Stage.Main",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(1)",
+            "request": "launch",
+            "mainClass": "Java_IO.Main",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch Confirm",
+            "request": "launch",
+            "mainClass": "Practice.Confirm.Confirm",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch Replace",
+            "request": "launch",
+            "mainClass": "Practice.First.Replace",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch Form",
+            "request": "launch",
+            "mainClass": "Practice.Form.Form",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch Threads",
+            "request": "launch",
+            "mainClass": "Practice.Threads",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch Browser",
+            "request": "launch",
+            "mainClass": "Project.Browser.Browser",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(2)",
+            "request": "launch",
+            "mainClass": "Project.CBT.Main",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "Project.CBT.Test",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch List",
+            "request": "launch",
+            "mainClass": "Project.List",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch browser",
+            "request": "launch",
+            "mainClass": "Project.New.browser",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch CBT_EXAM",
+            "request": "launch",
+            "mainClass": "Project.Question.CBT_EXAM",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch Confirm(1)",
+            "request": "launch",
+            "mainClass": "Test.Confirm",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(3)",
+            "request": "launch",
+            "mainClass": "Test.Main",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch Replace(1)",
+            "request": "launch",
+            "mainClass": "Test.Replace",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch Add",
+            "request": "launch",
+            "mainClass": "Tutorial.Add_5.Add",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(4)",
+            "request": "launch",
+            "mainClass": "Tutorial.Alarm.Main",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlertDialog",
+            "request": "launch",
+            "mainClass": "Tutorial.Alert.AlertDialog",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch Flashing",
+            "request": "launch",
+            "mainClass": "Tutorial.Animation_19.Flashing",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch Text",
+            "request": "launch",
+            "mainClass": "Tutorial.AppendText.Text",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch Audio",
+            "request": "launch",
+            "mainClass": "Tutorial.Audio.Audio",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(5)",
+            "request": "launch",
+            "mainClass": "Tutorial.Charts.BarChart.Main",
+            "projectName": "JavaFX_a5dd5402",
+            "vmArgs": "--module-path \"C:/Users/UNIABK-104/Downloads/openjfx-18_windows-x64_bin-sdk/javafx-sdk-18/lib\" --add-modules javafx.controls,javafx.fxml,javafx.media"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(6)",
+            "request": "launch",
+            "mainClass": "Tutorial.Charts.BubbleChart.Main",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch LineChart",
+            "request": "launch",
+            "mainClass": "Tutorial.Charts.LineChart.LineChart",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(7)",
+            "request": "launch",
+            "mainClass": "Tutorial.Charts.PieChart.Main",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch ChoiceBox_15",
+            "request": "launch",
+            "mainClass": "Tutorial.ChoiceBox_15.ChoiceBox_15",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch Choice",
+            "request": "launch",
+            "mainClass": "Tutorial.Choice_10.Choice",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch Color",
+            "request": "launch",
+            "mainClass": "Tutorial.Color_11.Color",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch Date",
+            "request": "launch",
+            "mainClass": "Tutorial.Date_9.Date",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileChooser",
+            "request": "launch",
+            "mainClass": "Tutorial.FileChooser_12.FileChooser",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch Init",
+            "request": "launch",
+            "mainClass": "Tutorial.Initialize_6.Init",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch Key",
+            "request": "launch",
+            "mainClass": "Tutorial.Key_8.Key",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch Mouse",
+            "request": "launch",
+            "mainClass": "Tutorial.Mouse_7.Mouse",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch Multi",
+            "request": "launch",
+            "mainClass": "Tutorial.MultiDate_13.Multi",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch One",
+            "request": "launch",
+            "mainClass": "Tutorial.One_2.One",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch Polygon",
+            "request": "launch",
+            "mainClass": "Tutorial.Polygon_16.Polygon",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProgressBar",
+            "request": "launch",
+            "mainClass": "Tutorial.ProgressBar_18.ProgressBar",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch Progress",
+            "request": "launch",
+            "mainClass": "Tutorial.Progress_Indicator.Progress",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch Radio",
+            "request": "launch",
+            "mainClass": "Tutorial.Radio_3.Radio",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch Show",
+            "request": "launch",
+            "mainClass": "Tutorial.Show_2.Show",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch Spinner",
+            "request": "launch",
+            "mainClass": "Tutorial.Spinner_14.Spinner",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch New",
+            "request": "launch",
+            "mainClass": "Tutorial.Stage_17.New",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch Table",
+            "request": "launch",
+            "mainClass": "Tutorial.TableView.Table",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch TextUpdate",
+            "request": "launch",
+            "mainClass": "Tutorial.Text_4.TextUpdate",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch Zero",
+            "request": "launch",
+            "mainClass": "Tutorial.Zero_1.Zero",
+            "projectName": "JavaFX_a5dd5402"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(8)",
+            "request": "launch",
+            "mainClass": "sample.Main",
+            "projectName": "JavaFX_a5dd5402"
+        }
+    ]
+}
